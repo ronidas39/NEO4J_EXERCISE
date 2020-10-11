@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo4j Flask Demo</title>
+</head>
+<body>
+    <form action="/graph" method="POST" enctype="multipart/form-data">
+    <label for="task">Display Complete Graph</label>
+    <br>
+    <button type="submit" name="submit" value="find_graph">Show Employee Nodes</button>
+    <br>
+    <label for="task">Employee Node Creation</label>
+    <br>
+    <input type="text" name="name" id="name" placeholder="Enter Employee Name">
+    <br>
+    <input type="text" name="empid" id="empid" placeholder="Enter Employee Id">
+    <br>
+    <button type="submit" name="submit" value="create">Create Node</button>
+    </form>
+    
+</body>
+</html>

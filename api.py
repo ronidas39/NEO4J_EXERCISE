@@ -31,17 +31,12 @@ def display():
  match(n) return n.NAME as NAME , n.EMP_ID as EMP_ID
  """
  results=session.run(q1)
- graphs=[]
- for result in results:
-    dc={}
-    print(result)
-    name=result["NAME"]
-    id=result["EMP_ID"]
-    
-    dc.update({"EMP_NAME":name,"EMP_ID":id})
-    graphs.append(dc)
+ data=results.data()
+ 
 
- return render_template("results.html",list=graphs)
+ return jsonify(data)
+
+
 
 
 
