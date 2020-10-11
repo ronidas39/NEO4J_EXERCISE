@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>results</title>
+</head>
+<body>
+    <h1 style="color: blueviolet;">Results:</h1>
+    {% for dict_items in list %}
+      
+      <h2 style="background-color: darkcyan;">Name: {{dict_items["EMP_NAME"]}},EMP_ID: {{dict_items["EMP_ID"]}}</h2>
+      
+   
+{% endfor %}
+</body>
+</html>
