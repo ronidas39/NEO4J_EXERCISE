@@ -28,12 +28,12 @@ incase you dont want to setup the api , dont worry , i have made it live , it is
 
 use the urls only
 
-http://825cf6964a7d.ngrok.io/create/name&id
+http://c0a7e1366bfb.ngrok.io/create/name&id
 
-http://825cf6964a7d.ngrok.io/display
+http://c0a7e1366bfb.ngrok.io/display
 
 
 bonus task 1 &2:
 
 web ui has been created , code is webui.py and supporting html can be found inside the templates folder .
-ui is up & running in my private server hosted on t-systems cloud (Germany)can be accesible from http://21460a10a743.ngrok.io/graph .This is also connected with one active neo4j instance .
+ui is up & running in my private server hosted on t-systems cloud (Germany)can be accesible from http://43a0d08a6a4d.ngrok.io/graph .This is also connected with one active neo4j instance .
