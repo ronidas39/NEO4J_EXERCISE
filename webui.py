@@ -5,7 +5,7 @@ webui=Flask(__name__)
 def create():
     if request.method=="POST":
         if request.form["submit"]=="find_graph":
-            response=requests.get("http://825cf6964a7d.ngrok.io/display")
+            response=requests.get("http://91e18b01665c.ngrok.io/display")
             data=response.json()
             return render_template("results.html",list=data)
         elif request.form["submit"]=="create":
@@ -14,7 +14,7 @@ def create():
             if(name=="" or id==""):
                 return("Please enter the values for employee id or name")
             else:
-             response=requests.get("http://825cf6964a7d.ngrok.io/create/"+name+"&"+id)
+             response=requests.get("http://91e18b01665c.ngrok.io/create/"+name+"&"+id)
              return(response.text)
 
 
