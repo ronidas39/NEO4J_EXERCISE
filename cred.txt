@@ -1,1 +1,1 @@
-neo4j,boresights-friend-bushings,bolt://100.25.198.228:33267
+neo4j,shipment-socket-primes,bolt://54.197.89.156:33252
